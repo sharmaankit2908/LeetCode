@@ -16,13 +16,15 @@ class Solution:
         #     if dummy[i]==0:
         #         return i
 
-        # Method 3
+        # Method 3 
+        # Time complexity of O(n) with O(1) extra space
         # sum1=sum(nums)
         # l=len(nums)+1
         # sum2=l*(l-1)*0.5
         # return int(sum2-sum1)
 
         # Method 4
+        # Time complexity of O(n) with O(1) extra space
         a1,a2=0,0
         mini=min(nums)
         if mini !=0:
