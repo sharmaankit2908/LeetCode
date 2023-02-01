@@ -1,5 +1,8 @@
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
+        
+        # Boyer Moore Algorithm
+        # Time Complexity of O(n) and space complexity of O(1)
         cnt=1
         maj=nums[0]
         for i in range(1,len(nums)):
