@@ -1,1 +1,1 @@
-![rotate](https://user-images.githubusercontent.com/123895014/216391190-9c46fd38-c0da-4a97-a41f-a771d7f137bf.PNG)
+![majority](https://user-images.githubusercontent.com/123895014/216391950-2669418d-29b9-4587-8128-0115922daf87.PNG)
