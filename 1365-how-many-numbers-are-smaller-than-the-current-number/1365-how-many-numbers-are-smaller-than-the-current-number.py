@@ -25,6 +25,24 @@ class Solution:
             
         # Method 3
         # Time Complexity of O(n)
+        # m=max(nums)
+        # dummy=[0]*(max(nums)+1)
+        # n=len(nums)
+        # for i in range(n):
+        #     dummy[nums[i]] +=1
+        # print(dummy)
+        # for i in range(1,len(dummy)):
+        #     dummy[i] +=dummy[i-1]
+        # print(dummy)
+        # ans=[]
+        # for i in range(n):
+        #     if nums[i] !=0:
+        #         ans.append(dummy[nums[i]-1])
+        #     else:
+        #         ans.append(0)
+        # return ans
+        
+        # Method 3 with different Code
         m=max(nums)
         dummy=[0]*(max(nums)+1)
         n=len(nums)
@@ -34,10 +52,9 @@ class Solution:
         for i in range(1,len(dummy)):
             dummy[i] +=dummy[i-1]
         print(dummy)
-        ans=[]
+        ans=[0]*len(nums)
         for i in range(n):
             if nums[i] !=0:
-                ans.append(dummy[nums[i]-1])
-            else:
-                ans.append(0)
+                ans[i]=dummy[nums[i]-1]
         return ans
+        
