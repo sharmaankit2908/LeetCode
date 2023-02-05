@@ -1,7 +1,8 @@
 class Solution:
     def createTargetArray(self, nums: List[int], index: List[int]) -> List[int]:
         
-        #   Method 1
+
+        # Time Complexity of O(n)
         target=[]
         n=len(nums)
         for i in range(n):
